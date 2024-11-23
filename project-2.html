@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>project-2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap icons links  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="proj2.css">
+</head>
+
+<body>
+    <!--navbar  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="top_nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="http://pluspng.com/img-png/png-logo-design-design-png-hd-1250.png" width="150px"
+                    class="img-fluid" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+
+                </ul>
+                <!-- jo kam ka nhi tha usse rmove kar diya -->
+                <form class="d-flex" role="search" id="searchform">
+                    <input class="form-control me-2 " id="searchbox" type="search" placeholder="Search"
+                        aria-label="Search" style="background-color: white;">
+                    <button class="btn btn-outline-success" type="submit" id="searchbtn"><i
+                            class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- container-fluid -->
+    <div class="container-fluid">
+        <div class="row justify-content-center" id="banner">
+            <!-- banner ke liye row hain -->
+            <div class="col-md-4 col-11" id="banner-text">
+                <h1>First I Wanted to be <br> a Veterinarian</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laboriosam excepturi aliquid
+                    obcaecati amet officia? A, ullam? Commodi, quaerat temporibus.</p>
+                <button type="button" class="btn" id="banner-btn-1">Contact us</button>
+                <button type="button" class="btn" id="banner-btn-2">Our service</button>
+
+            </div>
+            <div class="col-md-6 " id="banner image">
+                <!--yadi eska use kare d- none and d-md-block ka mtlab hain chhote phone pe ye pic na dekhe and md hote he dekhne lage  -->
+                <img src="http://clipart-library.com/img/1678340.png"
+                    class="img-fluid" alt="">
+            </div>
+
+        </div>
+        <!-- service -->
+        <div class="row justify-content-center">
+            <div class="col-md-5 col-11" id="service-text">
+                <h1>AS a vererinarian and <br> lover of animals.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nostrum illum magni placeat,
+                    obcaecati explicabo maxime dolorum, laboriosam exercitationem, quas necessitatibus nisi quia
+                    doloremque architecto? Quos eos consequuntur delectus iusto?</p>
+                <button type="button" id="service-btn">Join service</button>
+
+            </div>
+            <div class="col-md-5" id="service-img">
+                <img src="https://fthmb.tqn.com/5YCso8W5I_qGRH-QXquqeiQOfDs=/2000x1323/filters:fill(auto,1)/dog_wash-184923771-58a9d8d75f9b58a3c9479f6d.jpg"
+                    class="img-fluid" alt="">
+
+            </div>
+        </div>
+        <!-- counter -->
+        <div class="row justify-content-center mt-5 " id="counter-bg-image">
+            <div class="col-md-3  text-center text-white  mt-5 mb-3">
+                <h1><i class="bi bi-heart-pulse-fill"></i></h1>
+                <h1>+34793</h1>
+                <h2>Happy Clients</h2>
+            </div>
+            <div class="col-md-3 text-center text-white mt-5 mb-3">
+                <h1><i class="fa-solid fa-syringe"></i></h1>
+                <h1>+54762</h1>
+                <h2>Vaccinations</h2>
+            </div>
+            <div class="col-md-3 text-center text-white mt-5 mb-3">
+                <h1><i class="fa-solid fa-truck-medical"></i></h1>
+                <h1>24/7</h1>
+                <h2>Free service</h2>
+            </div>
+        </div>
+        <!-- vlog -->
+        <div class="row justify-content-center" id="vlog">
+            <div class="col-12 text-center">
+                <h1 id="vlog-h1">Recent post</h1>
+                <p id="vlog-p">Lorem ipsum dolor sit amet consectetur <br> velig to post adipisicing elit. Veniam,
+                    illum!</p>
+            </div>
+            <div class="col-md-3 col-11 mt-4">
+                <img src="https://www.doctor2u.my/wp-content/uploads/2018/06/bigstock-139397831.jpg" class="img-fluid">
+                <div class="article-detail">
+                    <h4 class="artical-title">As a veterinarian and lover of animals.</h4>
+                    <p class="artical-date">FEBRUARY 09, 2021</p>
+                    <p class="artical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tenetur
+                        deleniti nulla
+                        voluptate, quaerat temporibus!</p>
+                    <p class="artical-link"><a href="">Read more+</a></p>
+                </div>
+
+            </div>
+            <div class="col-md-3 col-11 mt-4">
+                <img class="img-fluid" src="https://www.centerforprofessionalrecovery.com/wp-content/uploads/2018/08/shutterstock_250841905.jpg"
+                     alt="">
+                <div class="article-detail">
+                    <h4 class="artical-title">As a veterinarian and lover of animals.</h4>
+                    <p class="artical-date">FEBRUARY 09, 2021</p>
+                    <p class="artical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tenetur
+                        deleniti nulla
+                        voluptate, quaerat temporibus!</p>
+                    <p class="artical-link"><a href="">Read more+</a></p>
+                </div>
+
+            </div>
+            <div class="col-md-3 col-11 mt-4">
+                <img src="https://www.madpaws.com.au/wp-content/uploads/2021/05/shutterstock_1674253951.jpg"
+                    class="img-fluid" alt="">
+                <div class="article-detail">
+                    <h4 class="artical-title">As a veterinarian and lover of animals.</h4>
+                    <p class="artical-date">FEBRUARY 09, 2021</p>
+                    <p class="artical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tenetur
+                        deleniti nulla
+                        voluptate, quaerat temporibus!</p>
+                    <p class="artical-link"><a href="">Read more+</a></p>
+                </div>
+            </div>
+
+        </div>
+        <!-- form and location -->
+        <div class="row justify-content-evenly pt-3 pb-5" style="background-color:#f1f1f1;">
+            <div class="col-md-5 mt-5">
+              <h3 class="mb-3">Contact Form</h3>
+              <form class="">
+                <div class="mb-3">
+                  <label for="exampleInputtext1" class="form-label">Full Name</label>
+                  <input type="none" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="none" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="" class="form-control" id="exampleInputPassword1">
+                </div>
+                <!-- form text -->
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check</label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-danger">Submit</button>
+              </form>
+            </div>
+            <!-- forms yaha end hua h -->
+            <div class="col-md-5 mt-5">
+              <h3 class="mb-4">Address</h3>
+              <p>1180 Kimbary way, WILL-PARK <br>
+                New York-11596 <br>
+                <i class="bi bi-telephone-fill text-primary"></i> :985-774-5421
+              </p>
+      
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106106.57698026556!2d150.65876279432933!3d-33.790874228697874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b128987f6abf13d%3A0x93e6cd0f1c716639!2sThe%20Rock%20Lookout!5e0!3m2!1sen!2sin!4v1714802494167!5m2!1sen!2sin"
+                style="width: 100%;" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </div>
+    <!-- footer -->
+    <div class="row justify-content-center" id="footer">
+        <div class="col-md-3 col-11">
+            <h4 class="text-white">about</h4>
+            <a href="">History</a><br>
+            <a href="">Our team</a><br>
+            <a href="">Brand Guidlines</a><br>
+            <a href="">Terms&conditions</a><br>
+            <a href="">privacy policy</a><br>
+        </div>
+
+        <div class="col-md-2 col-11">
+            <h4 class="text-white">Services</h4>
+            <a href="">How to order</a><br>
+            <a href="">Our product</a><br>
+            <a href="">Order Status</a><br>
+            <a href="">Promo</a><br>
+            <a href="">Payment</a><br>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+        </div>
+
+        <div class="col-md-4 col-11 text-end">
+            <h4 class="text-white">Title Here</h4>
+            <p class="text-white">LoremIpsum dolor sit Amet.</p>
+            <form action="" id="footer-form">
+                <input type="text" id="footer-serch-box">
+                <button type="button" id="footer-btn">
+                    <i class="fa-brands fa-twitter"></i>
+                </button>
+            </form>
+            <i class="fa-brands fa-square-instagram text-white socal"></i>
+            <i class="fa-brands fa-facebook text-white socal"></i>
+            <i class="fa-brands fa-twitter text-white socal"></i>
+            <i class="fa-brands fa-whatsapp text-white socal"></i>
+        </div>
+    </div>
+
+
+    <!-- container-fluid-end -->
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
